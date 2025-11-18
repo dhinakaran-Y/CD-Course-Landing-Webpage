@@ -1,0 +1,44 @@
+#tooltip-skills{
+    position: fixed;
+    top: 60px;
+    left: 47vw;
+    background-color: #838D78;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: whitesmoke;
+    display: none;
+    padding-top: 1rem;
+    z-index: 20;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.832);
+}
+
+#tooltip-skills > ul {
+    list-style: none;
+}
+
+.skill{
+    border-bottom: 1px solid;
+    padding: 5px 0;
+}
+
+#skills-drop:focus ~ #tooltip-skills {
+    display: block !important;
+}
+
+#cancel-btn{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: 1px solid;
+  padding: 0 5px;
+}
+
+#cancel-btn:hover{
+    color:rgb(200, 176, 20) ;
+    cursor: pointer;
+}
+
+/* #cancel-bt:focus ~ #tooltip-skills{
+   border: 1px solid red;
+   display: block !important;
+} */

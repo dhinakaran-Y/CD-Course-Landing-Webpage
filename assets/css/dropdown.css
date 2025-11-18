@@ -1,0 +1,57 @@
+
+
+/* 1 */
+#who-drop{
+    display: none;
+}
+
+body:has(#who-drop:checked) #who-sub{
+    display: block;
+}
+
+/* 2 */
+#why-drop{
+    display: none;
+}
+
+body:has(#why-drop:checked) #why-sub{
+    display: block;
+}
+
+/* 3 */
+#benefits-drop{
+    display: none;
+}
+
+body:has(#benefits-drop:checked) #benefits-sub{
+    display: block;
+}
+
+.ans{
+    display: none;
+}
+
+.quzz-div{
+   background-color: #888888;
+   width: 40vw;
+   padding: 15px 20px;
+   border-radius: 5px;
+   color:snow;
+}
+
+.quzz{
+    font-size: large;
+    font-weight:bold;
+    padding: 12px 0 5px 0;
+}
+
+.ans{
+    font-size: 20px;
+    color: #e8e8e8;
+    padding: 10px 10px;
+}
+
+.checkbox{
+    visibility: hidden;
+}
+

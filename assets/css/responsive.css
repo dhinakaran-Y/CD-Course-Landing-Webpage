@@ -1,0 +1,8 @@
+@media (max-width: 500px) {
+    #profile-section{
+       flex-direction: column;
+    }
+    #profile-pic{
+        width: 70vw;
+    }
+}
