@@ -27,7 +27,7 @@
     font-size: 20px;
   }
   #profile-text-div{
-    width: 90%;
+    width: 80%;
     /* text-align: center; */
     padding-bottom: 10vh;
   }
@@ -35,7 +35,7 @@
   /* about*/
   .video-big{
     width: 100vw;
-    height: 60vh;
+    height: 40vh;
     border-radius: 0;
  }
 
@@ -44,7 +44,9 @@
  }
 
  .para{
-    font-size: 20px;
+    font-size: 16px;
+    width: 80%;
+    margin: 25px auto;
  }
 
  /* course */
@@ -59,12 +61,13 @@ justify-content: space-evenly;
 }
 
 .card{
-    width: 70vw;
+    width: 300px;
+    height: 350px;
     justify-self: center;
 }
 
 .card-banner {
-  height: 35vh;
+  height: 65%;
 }
 
 .card-content {
@@ -83,7 +86,7 @@ justify-content: space-evenly;
 }
 
 .mentor-text {
-  width: 80vw;
+  width: 300px;
 }
 
 .quzz-div{
@@ -93,7 +96,25 @@ justify-content: space-evenly;
 
 /* contact */
 #contact-section {
-  height: 35vh;
+  width: 100vw !important;
+  height:200px;
+}
+
+.contact-link {
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+}
+
+
+/* footer */
+footer {
+  flex-direction: column;
+  text-align: center;
+}
+
+.border-line{
+  display: none;
 }
 
 }
@@ -135,16 +156,18 @@ justify-content: space-evenly;
   /* about*/
   .video-big{
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
     border-radius: 0;
  }
 
  .heading-1{
-    font-size: 40px;
+    font-size: 35px;
  }
 
  .para{
-    font-size: 30px;
+    font-size: 20px;
+    width: 80%;
+    margin: 30px auto;
  }
 
  /* course */
@@ -159,12 +182,13 @@ justify-content: space-evenly;
 }
 
 .card{
-    width: 50vw;
+    width: 350px;
+    height: 400px;
     justify-self: center;
 }
 
 .card-banner {
-  height: 45vh;
+  height: 70%;
 }
 
 .card-content {
@@ -183,7 +207,7 @@ justify-content: space-evenly;
 }
 
 .mentor-text {
-  width: 80vw;
+  width: 70vw;
 }
 
 .quzz-div{
@@ -193,7 +217,24 @@ justify-content: space-evenly;
 
 /* contact */
 #contact-section {
-  height: 40vh;
+  height: 6cm;
+}
+
+.contact-link {
+  width: 70px;
+  height: 70px;
+  padding: 3px;
+  margin: 10px;
+}
+
+/* footer */
+footer {
+  flex-direction: column;
+  text-align: center;
+}
+
+.border-line{
+  display: none;
 }
 
 }
@@ -230,7 +271,7 @@ justify-content: space-evenly;
 
   /* profile */
   #profile-pic {
-  width: 40vw;
+  width: 35vw;
   border-radius: 50%;
   /* border: 3px solid var(--brand-color); */
   opacity: 0%;
@@ -238,31 +279,36 @@ justify-content: space-evenly;
 }
 
 #profile-text-div {
-  width: 40vw;
+  width: 35vw;
 }
 
 #profile-text-div > h2 {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 #profile-text-div > h4 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 #profile-text-div > p {
-  font-size: 45px;
+  font-size: 35px;
   margin-top: 2vh;
 }
 
 /* about */
   .heading-1 {
-  font-size: 80px;
+  font-size: 70px;
 }
 
 .para {
-  font-size: 50px;
+  font-size: 35px;
   width: 90%;
-  margin: 2rem auto;
+  margin: 3rem auto 4rem auto;
+}
+
+.video-big{
+  width: 80rem;
+  height: 40rem;
 }
 
 /* course */
@@ -272,14 +318,14 @@ justify-content: space-evenly;
 
   /* card */
    .card{
-    width: 28vw;
-    height: 60vh;
+    width: 30rem;
+    height: 45rem;
     margin: 5rem 0;
    }
 
    .card-banner {
   position: relative;
-  height: 35vh;
+  height: 60%;
 }
 
 .card-content {
@@ -287,7 +333,7 @@ justify-content: space-evenly;
 }
 
 .card-title {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .desc {
@@ -296,23 +342,23 @@ justify-content: space-evenly;
 
 /* instructor */
 .mentor-img-div {
-  width: 35vw;
-  height: 35vw;
+  width: 30vw;
+  height: 30vw;
 }
 .mentor-text{
   margin-right: 7vw;
 }
 /* quzz */
 .ans{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .quzz-div{
-   width: 45vw;
+   width: 35vw;
 }
 
 .quzz{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .quzz > label > svg {
@@ -320,10 +366,12 @@ justify-content: space-evenly;
   height: 60px;
 }
 
-footer p{
-  font-size: 60px;
+/* contact */
+#contact-section {
+  height: 8cm;
 }
-.footer-p2{
-  font-size: 40px;
+
+footer p{
+  font-size:x-large;
 }
 }
