@@ -181,6 +181,7 @@ nav > a > svg > path {
 
 .card:hover {
   transform: translateY(-1rem);
+  transition: all 0.2s ease-in-out;
 }
 
 /* Top banner */
@@ -292,6 +293,7 @@ nav > a > svg > path {
 .contact-link:hover {
   color: var(--brand-color);
   transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 
 .contact-link:active {
@@ -306,6 +308,14 @@ footer p {
 
 footer p:hover{
   cursor: pointer;
+  color: white !important;
+  transition: all 1s ease;
+}
+
+footer p a:hover{
+  cursor: pointer;
+  color: white !important;
+  transition: all 1s ease;
 }
 
 
