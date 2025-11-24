@@ -97,7 +97,12 @@ justify-content: space-evenly;
 /* contact */
 #contact-section {
   width: 100vw !important;
-  height:200px;
+  height:230px;
+}
+
+#contact-div{
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .contact-link {
@@ -254,6 +259,19 @@ footer {
 .card-content {
   padding: 12px;
 }
+
+#profile-text-div > h2 {
+  font-size: 30px;
+
+}
+
+#profile-text-div > h4 {
+  font-size: 25px;
+}
+
+#profile-text-div > p {
+  font-size: 18px;
+}
 }
 
 @media (min-width:1800px){
@@ -283,25 +301,25 @@ footer {
 }
 
 #profile-text-div > h2 {
-  font-size: 70px;
+  font-size: 55px;
 }
 
 #profile-text-div > h4 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 #profile-text-div > p {
-  font-size: 35px;
+  font-size: 30px;
   margin-top: 2vh;
 }
 
 /* about */
   .heading-1 {
-  font-size: 70px;
+  font-size: 50px;
 }
 
 .para {
-  font-size: 35px;
+  font-size: 30px;
   width: 90%;
   margin: 3rem auto 4rem auto;
 }
@@ -350,7 +368,7 @@ footer {
 }
 /* quzz */
 .ans{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .quzz-div{
@@ -358,7 +376,7 @@ footer {
 }
 
 .quzz{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .quzz > label > svg {
